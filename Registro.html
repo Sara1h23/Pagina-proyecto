@@ -10,21 +10,21 @@
         <h2>Registro de Usuario</h2>
         <form id="Registro-usuarios">
             <label for="Nombre">Nombres:</label>
-            <input type="text" id="name" placeholder="Ingresa tu nombre aquí">
+            <input type="text" id="name" placeholder="Ingresa tu nombre aquí" required>
 
             <label for="Apellidos">Apellidos:</label>
-            <input type="text" id="Apellidos" placeholder="Ingresa tus apellidos aquí">
+            <input type="text" id="Apellidos" placeholder="Ingresa tus apellidos aquí" required>
 
 
             <label for="email">Correo Electrónico</label>
-            <input type="email" id="email" placeholder="Ingresa tu correo electronico aquí">
-
-            <label for="telefono">Numero Telefonico</label>
-            <input type="tel" id="Telefono" placeholder="Ingresa tu número telefonico aquí">
+            <input type="email" id="email" placeholder="Ingresa tu correo electronico aquí" required>
 
             <label for="contraseña">Contraseña</label>
-            <input type="password" id="password" placeholder="Ingresa tu contraseña aquí">
+            <input type="password" id="password" placeholder="Ingresa tu contraseña aquí" required>
             <button id="btn" onclick="visibility()">Mostrar</button>
+
+            <label for="telefono">Numero Telefonico</label>
+            <input type="tel" id="Telefono" placeholder="Ingresa tu número telefonico aquí" required>
 
             <label for="genero" >Género</label>
             <select id="gender" required>

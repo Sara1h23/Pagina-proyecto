@@ -1,5 +1,5 @@
-let input = document.getElementById('password')
-let btn = document.getElementById('btn')
+let input = document.getElementById('contrasena')
+let btn = document.getElementById('boton')
 
 function visibility(){
     if(input.type=='password'){
