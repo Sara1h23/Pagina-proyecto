@@ -6,12 +6,39 @@
     <title>CHARLAS T.A.G.</title>
 </head>
 <body>
-    <section>
-        <main>
-            <form>
-                
-            </form>
-        </main>
+    <section class="Registro">
+        <h2>Registro de Usuario</h2>
+        <form id="Registro-usuarios">
+            <label for="Nombre">Nombres:</label>
+            <input type="text" id="name" placeholder="Ingresa tu nombre aquí">
+
+            <label for="Apellidos">Apellidos:</label>
+            <input type="text" id="Apellidos" placeholder="Ingresa tus apellidos aquí">
+
+
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" placeholder="Ingresa tu correo electronico aquí">
+
+            <label for="telefono">Numero Telefonico</label>
+            <input type="tel" id="Telefono" placeholder="Ingresa tu número telefonico aquí">
+
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="password" placeholder="Ingresa tu contraseña aquí">
+            <button id="btn" onclick="visibility()">Mostrar</button>
+
+            <label for="genero" >Género</label>
+            <select id="gender" required>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="Neutro">Neutro</option>
+                <option value="N/A">Prefiero no responder</option>
+            </select>
+            <button type="submit" class="register-button">Registrar</button>
+            <p><a href="/login.html">¿Ya tengo cuenta? Iniciar Sesión</a></p>
+        </form>
+        <p><a href="/index.html">Regresar al Inicio</a></p>
     </section>
+
+    <script src="/JavaScript/java.js"></script>
 </body>
 </html>
