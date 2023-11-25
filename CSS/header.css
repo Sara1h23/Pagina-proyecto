@@ -1,16 +1,15 @@
-*{
-    margin: 0;
+*{  margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 html {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:Arial, Helvetica, sans-serif
 }
 
 .contenedor1 {
-    padding:12px; 
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px ;
+    padding:10px; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px ;
     background-color: #E4F3FF;
     color: black;
     font-weight: bold;
@@ -19,26 +18,26 @@ html {
 
 .contenedor2{
     position: absolute;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-    font-size: 24px;
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 20x;
     text-transform: uppercase;
     float: left;
-    width: 40%;
-    height: 8.5%;
+    width: 20%;
+    height: auto;
     display: flex;
-    align-items: center;
+    align-items:center;
+    justify-content: center;
     color:fffff ;
     background-color:#C3F1F1 ;
-    padding: 10px;
-
+    font-weight: bold;
 }
 
 .nav-menu{
     left: 0;
     right: 0;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Times New Roman', Times, serif;
     padding: 0 5%;
-    height: 80px;
+    height: 70px;
     background-color:#C3F1F1 ;
 }
 
@@ -56,8 +55,7 @@ html {
 .nav-menu__item{
     list-style: none;
 }
-nav .nav-menu__item a {
-    display: block;
+.nav-menu__item a {
     text-transform: uppercase;
     padding: 15px;
     font-size: 18px;
@@ -65,6 +63,10 @@ nav .nav-menu__item a {
     color:black;
     text-decoration: none;
 }
+.nav-menu__item a:hover{
+    border-bottom: 4px solid #c7a8d9;
+}
+
 
 
 
