@@ -7,13 +7,14 @@ html {
 }
 
 .contenedor1 {
-    padding:10px; 
+    padding:9px;
     font-family:'Times New Roman', Times, serif;
     font-size: 14px ;
-    background-color: #E4F3FF;
-    color: black;
+    background-color: #F8F0E6;
+    color:#210D41;
     font-weight: bold;
 }
+
 
 .contenedor2{
     position: absolute;
@@ -26,13 +27,13 @@ html {
     display: flex;
     align-items:center;
     justify-content: center;
-    color:fffff ;
     background-color:#C3F1F1 ;
     font-weight: bold;
+    color: #210D41;
+
 }
 
 .nav-menu{
-    position: absolute;
     left: 0;
     right: 0;
     font-family:'Times New Roman', Times, serif;
@@ -60,7 +61,7 @@ html {
     padding: 15px;
     font-size: 18px;
     font-weight: bold;
-    color:black;
+    color:#210D41;
     text-decoration: none;
 }
 .nav-menu__item a:hover{
@@ -71,6 +72,9 @@ html {
     position: absolute;
 }
 
+main{
+    background-color: #F8F0E6;
+}
 
 
 
