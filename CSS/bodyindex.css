@@ -4,22 +4,68 @@
 }
 
 body{
-    background-color: blanchedalmond;
+    background-color: #F8F0E6;
+    font-family: Arial, Helvetica, sans-serifs;
 }
 
 main{
     width:1000px;
     margin: auto;
     margin-top: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
 }
+
+.contenedor-Banner{
+    margin-bottom: 10px;
+}
+
+.contenidoTexto{
+    padding: 10px 30px;
+    width: 100%;
+
+}
+
+.contenidoTexto__Subtitulo{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #210D41;
+    padding: 10px 0px 15px;
+    display: flex;
+    justify-content: center;  
+}
+
+.contenidoTexto_Parrafo {
+    margin: 10px;
+    margin-top:10px;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.contenidoTexto img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.resena-Clientes{
+    padding: 10px 30px;
+    width: 100%;
+}
+.resena-Clientes__cuadro-Texto{
+    
+}
+
 
 
 /*Estilos opinion clientes*/
 
 .opinion-Clientes{
-    background-color: rgb(171, 211, 235);
     margin:auto;
-    margin-top: 20px;
     padding: 30px 0;
 }
 
@@ -27,10 +73,15 @@ main{
     width: 90%;
     max-width: 1400px;
     margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #210D41;
+    font-size: 24px;
 }
 
 .opinion-Clientes__testimonio{
     margin-bottom: 15px;
+    margin-top: 18px;
 }
 
 .opinion-Clientes__testimonio img{
