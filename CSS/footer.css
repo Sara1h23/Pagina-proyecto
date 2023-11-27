@@ -24,17 +24,38 @@ footer{
    
 }
 
-
 .footer__pago{
     display: flex;
     justify-content: space-evenly;
     padding: 25px;
 }
 
-.redes {
-    background-color: blueviolet;
+.redes{
     width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 45px 0px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
 }
+
+.redes__box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.redes__imagen{
+    width: 250px;
+    
+}
+
+
+
 
 .información-contacto__texto{
     background-color: aquamarine;
@@ -61,7 +82,6 @@ footer{
     text-decoration: none;
     color:#210D41;
 }
-
 
 
 

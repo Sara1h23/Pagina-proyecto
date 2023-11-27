@@ -65,7 +65,8 @@ html {
     text-decoration: none;
 }
 .nav-menu__item a:hover{
-    border-bottom: 4px solid #c7a8d9;
+    border-bottom: 3px solid #c7a8d9;
+    padding: 10px;
 }
 
 .contenedor-banner{
@@ -75,6 +76,8 @@ html {
 main{
     background-color: #F8F0E6;
 }
+
+
 
 
 
