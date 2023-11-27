@@ -12,6 +12,7 @@ footer{
 .footer{
     width: 100%;
     padding: 20px 60px 5px;
+    margin-top: 20px;
 }
 
 
@@ -30,28 +31,30 @@ footer{
     padding: 25px;
 }
 
+
+
+
 .redes{
     width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding: 45px 0px;
+    padding: 10px 0px 10px;
     background-color: blanchedalmond;
     display: flex;
     justify-content: center;
+
 }
 
-.redes__box{
-    width: 100%;
+.redes__box1{
+    width: 50%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items:center;
 }
 
-.redes__imagen{
-    width: 250px;
-    
+.redes__Sociales{
+    width: 30% ;
+    display: flex;
 }
 
 
