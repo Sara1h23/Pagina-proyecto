@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#FFEED9;
+    font-family: Arial, Helvetica, sans-serifs;
+    font-size: 23px;
+}
+
+main{
+    width: 1000px;
+    margin: auto;
+    margin-top:15px;
+    padding: 20px;
+    background-color: #E0F4FF;
+    line-height: 30px;
+}
+
+.contenedor-Banner{
+    margin-top: 15px;
+}
+
+.contenedor-menu{
+    padding: 20px 250px 20px;
+    background-color: #D2E0FB;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+
+}
+
+.contenedor-menu a{
+    color: #210D41;
+    text-decoration: none;
+    font-size: 25px;
+}
+/*
+
+.nav-menu__item a:hover{
+    border-bottom: 3px solid #BEADFA;
+    padding: 10px;
+}*/
+
+.contenedor__subtitulo{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #210D41;
+    padding: 10px 0px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor__Parrafo{
+    padding: 0px 20px;
+    text-align:justify;
+}
+
+.contenedor-Historia img {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.contenedor-fundadores__item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px;
+}
+
+
+.contenedor-Mision-Vision{
+
+}
+
+.contenedor-Mision-Vision__texto{
+    padding: 0px 20px;
+    text-align:justify;
+    margin-top:15px;
+
+}

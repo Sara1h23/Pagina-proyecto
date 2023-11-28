@@ -4,31 +4,35 @@
 }
 
 body{
-    background-color: #F8F0E6;
+    background-color:#FFEED9;
     font-family: Arial, Helvetica, sans-serifs;
+    font-size: 23px;
 }
 
 main{
-    width:1000px;
+    width: 1000px;
     margin: auto;
-    margin-top: 20px;
+    margin-top:15px;
     padding: 20px;
-    background-color: antiquewhite;
+    background-color: #E0F4FF;
+    line-height: 30px;
 }
 
 .contenedor-Banner{
-    margin-bottom: 10px;
+    margin-top: 15px;
 }
+
 
 .contenidoTexto{
     padding: 10px 30px;
     width: 100%;
+    text-align: justify;
 
 }
 
 .contenidoTexto__Subtitulo{
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
     color: #210D41;
     padding: 10px 0px 15px;
@@ -40,7 +44,6 @@ main{
     margin: 10px;
     margin-top:10px;
     padding: 15px 20px;
-    display: inline-block;
 }
 
 .contenidoTexto img {
@@ -57,7 +60,32 @@ main{
     width: 100%;
 }
 .resena-Clientes__cuadro-Texto{
-    
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#cuadro-opinion{
+    margin: 15px;
+    width: 800px;
+    background-color: #FFF3DA;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+}
+#boton-enviar{
+    background-color: #D0A2F7;
+    color: #210D41;
+    border-radius: 50px;
+    width: 100px ;
+    height: 40px;
+    font-style: oblique;
+}
+#boton-enviar:hover{
+    border-bottom: 5px solid #000000;
 }
 
 
