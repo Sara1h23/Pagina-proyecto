@@ -73,8 +73,10 @@ html {
 }
 
 
-
-
+.contenedor2 {@media screen and(max-witht:600px){
+    width: 100%;
+    padding: 10px;
+}}
 
 
 

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('/img/Diseño\ sin\ título.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Registro{
+    background-color:#5C8374;
+    width: 500px;
+    height: 600px;
+    padding: 40px 30px 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#Registro-usuarios h2{ 
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label{
+    font-size: 18px;
+    display: flex;
+    font-weight: 400;
+    color: #E5D4FF;
+}
+
+input{
+    margin: 15px 0;
+    border-bottom: 3px solid #176B87;  
+    border-top: 0px; 
+    border-right:0px;
+    border-left:0px;
+    width: 300px;
+    height: 28px;
+    border-radius: 40px;
+    background-color: #E5D4FF; 
+    padding: 0px 10px; 
+}
+input::placeholder {
+    color: #176B87;
+    font-style: italic;
+    padding: 10px;
+  }
+
+.registro-Genero{
+    display: flex;
+}
+#genero{
+    align-items: center;
+    margin-right: 40PX;
+}
+.registro-Genero select{
+    margin: 10px 0;
+    background-color: #DCBFFF;
+    color: #210D41;
+    border-radius: 50px;
+    width: 210px ;
+    height: 30px;
+}
+.registro-Genero option{
+    color: #176B87;
+    padding: 20px;
+    text-align: center;
+}
+.registro-Genero select:hover{
+    border-bottom: 3px solid #176B87;
+}
+
+.register-button{
+    margin: 10px 0;
+    background-color:#176B87 ;
+    color: white;
+    border-radius: 40px;
+    border-color: #176B87;
+    width: 320px ;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.vinculos_registro{
+    text-align: center;
+}
+
+.vinculos_registro a{
+    text-decoration: none;
+    color: aliceblue;
+}
