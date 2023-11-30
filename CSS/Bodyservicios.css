@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url('img/3.png');
+    background-image: ('img/3.png');
     font-family: Arial, Helvetica, sans-serifs;
     background-size: 100% 14%;
     font-size: 23px;
