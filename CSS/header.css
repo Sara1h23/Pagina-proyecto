@@ -72,11 +72,13 @@ html {
     position: absolute;
 }
 
-
-.contenedor2 {@media screen and(max-witht:600px){
-    width: 100%;
+.contenedor2{@media screen and(max-width:600px) {
+    width: 100px;
     padding: 10px;
 }}
+
+
+
 
 
 
