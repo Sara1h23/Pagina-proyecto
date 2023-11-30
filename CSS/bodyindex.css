@@ -92,8 +92,6 @@ main{
 
 
 
-/*Estilos opinion clientes*/
-
 .opinion-Clientes{
     margin:auto;
     padding: 30px 0;
@@ -145,12 +143,44 @@ main{
 }
 
 
-@media screen and(max-width:600px){
-    body {
-    width: 100px;
-    padding: 10px;
+@media screen and (max-width:600px){
+    body{
+        width: 100%;
+    }
+    main{
+        
+    }
+    p {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    ul{
+        font-size: 35px;
+        line-height: 40px;
+        padding: 40px; 
+    }
+    #cuadro-opinion{
+        font-size: 30px;
+        padding: 30px 35px;
+    }
+    .opinion-Clientes__texto p{
+
+    }
+    .contenidoTexto__Subtitulo{
+        font-size: 60px;
+        line-height: 65px;
+        text-align: center;
+    }
+    .contenidoTexto img {
+        width: 99%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px 10px;
+    }
+
 }
-}
+
 
 
 

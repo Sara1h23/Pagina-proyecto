@@ -77,6 +77,15 @@ html {
     padding: 10px;
 }}
 
+@media screen and (max-width:768){
+    .contenedor2{
+        flex-direction: column;
+    }
+    .nav-menu{
+        flex-direction: column;
+    }
+}
+
 
 
 
