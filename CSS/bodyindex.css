@@ -143,44 +143,43 @@ main{
 }
 
 
-@media screen and (max-width:600px){
-    body{
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 18px;
+        background-size: 200px;
+    }
+    .contenedor-Banner img{
+        width: 100%;
+        height: 200px;
+    }
+    main {
         width: 100%;
     }
-    main{
-        
+
+    .contenidoTexto img {
+        width: 100%;
+        height: auto;
     }
-    p {
-        font-size: 40px;
-        line-height: 40px;
-    }
-    ul{
-        font-size: 35px;
-        line-height: 40px;
-        padding: 40px; 
+
+    .opinion-Clientes__slider{
+        font-size: 20px;
     }
     #cuadro-opinion{
-        font-size: 30px;
-        padding: 30px 35px;
+        width: 99%;
+        margin: 0px ;
+    }
+    #boton-enviar{
+        margin-top: 15px;
+    }
+    .opinion-Clientes__texto{
+        padding: 10px 20px;
+        margin-bottom: 20px;
     }
     .opinion-Clientes__texto p{
-
-    }
-    .contenidoTexto__Subtitulo{
-        font-size: 60px;
-        line-height: 65px;
-        text-align: center;
-    }
-    .contenidoTexto img {
-        width: 99%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        padding: 40px 20px 10px;
+        font-size: 18px;
     }
 
 }
-
 
 
 

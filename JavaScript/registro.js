@@ -1,4 +1,5 @@
-const registerForm = document.querySelector('RegistroUsuarios').document.addEventListener('submit', (e)=> {e.preventDeFault()
+const registerForm = document.querySelector('Registro').document.addEventListener('submit', (e)=> {e.preventDeFault()
+    
     const name = document.querySelector('name').value
     const email = document.querySelector('email').value
     const password = document.querySelector('password').value

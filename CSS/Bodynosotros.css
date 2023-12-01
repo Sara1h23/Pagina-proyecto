@@ -73,7 +73,6 @@ main{
     margin-top: 50px;
     display: flex;
     padding: 0px 20px ;
-
 }
 .contenedor-fundadores__personal{
     display: flex;
@@ -100,4 +99,48 @@ main{
     text-align:justify;
     margin-top:15px;
     margin-bottom:70px ;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 18px;
+        background-size: 200px;
+    }
+    .contenedor-Banner img{
+        width: 100%;
+        height: 200px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .contenedor-Historia img{
+        width: 100%;
+        height: auto;
+        padding: 20px 22px;
+    }
+
+    .contenedor-fundadores__item{
+        flex-direction: column;
+        margin-top: 0px;
+        padding: 10px 20px 10px;
+    }
+    .contenedor-fundadores__personal img{
+        width: 310px;   
+        margin-bottom: 10px;
+    }
+    .contenedor-fundadores__descripcion{
+        width: 100%;
+    }
+    .contenedor-fundadores__Foto img{
+        height: auto;
+    }
+    .contenedor-Mision-Vision__texto{
+        margin-bottom:20px ;
+    }
+
+    .contenedor__subtitulo{
+        padding: 45px 20px 45px;
+    }
 }
